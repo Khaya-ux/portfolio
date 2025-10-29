@@ -20,7 +20,7 @@ Installation
 
 Clone the repository
 
-bash   git clone https://github.com/yourusername/portfolio-website.git
+bash   git clone https://github.com/Khaya-ux/portfolio.git
    cd portfolio-website
 
 Install dependencies

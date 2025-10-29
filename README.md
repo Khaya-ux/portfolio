@@ -1,16 +1,46 @@
-# React + Vite
+🚀 Personal Portfolio Website
+A modern, responsive portfolio website built with React and Tailwind CSS. Features smooth animations, gradient designs, and a clean user interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+🛠️ Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React - JavaScript library for building user interfaces
+Tailwind CSS - Utility-first CSS framework
+Vite - Next-generation frontend tooling
+Lucide React - Beautiful & consistent icon library
+JavaScript (ES6+) - Modern JavaScript features
 
-## React Compiler
+🚀 Getting Started
+Prerequisites
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Node.js (v14 or higher)
+npm or yarn
 
-## Expanding the ESLint configuration
+Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository
+
+bash   git clone https://github.com/Khaya-ux/portfolio.git
+   cd portfolio-website
+
+Install dependencies
+
+bash   npm install
+
+Install Lucide React (if not already installed)
+
+bash   npm install lucide-react
+
+Start the development server
+
+bash   npm run dev
+
+Open your browser
+Navigate to http://localhost:5173 (or the port shown in your terminal)
+
+🔧 Available Scripts
+
+npm run dev - Start development server
+npm run build - Build for production
+npm run preview - Preview production build locally
+npm run lint - Run ESLint to check code quality

@@ -1,14 +1,21 @@
 import React from "react";
-import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <Navbar />
+    <div className="bg-[#1a1a1a] text-white font-sans">
       <Hero />
+      <About />
+      <Projects />
+      <Contact />
+      <footer className="text-center text-gray-400 py-6">
+        © 2025 Khaya Dube. All rights reserved.
+      </footer>
     </div>
   );
-};
+}
 
 export default App;

@@ -21,7 +21,7 @@ export default function Hero() {
             Software Developer
           </h2>
           <p className="text-lg text-gray-400">
-            Crafting beautiful, functional web experiences from South Africa 🇿🇦
+            Crafting beautiful, functional web experiences from South Africa
           </p>
           <div className="flex gap-4 flex-wrap pt-4">
             <button

@@ -1,21 +1,20 @@
 import React from "react";
+import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
-function App() {
+export default function App() {
   return (
-    <div className="bg-[#1a1a1a] text-white font-sans">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
+      <Navbar />
       <Hero />
       <About />
       <Projects />
       <Contact />
-      <footer className="text-center text-gray-400 py-6">
-        © 2025 Khaya Dube. All rights reserved.
-      </footer>
+      <Footer />
     </div>
   );
 }
-
-export default App;
